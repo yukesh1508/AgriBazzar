@@ -1,0 +1,118 @@
+/* About.css */
+
+/* General styles */
+.about-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+/* Section Headers */
+.about-container h1,
+.about-container h2 {
+    font-weight: bold;
+    text-align: center;
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+/* Introduction Section */
+.about-intro {
+    background: linear-gradient(to right, #28a745, #218838);
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-intro:hover {
+    transform: scale(1.02);
+}
+
+/* How It Works & Why Choose Us */
+.about-section {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.about-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* List Styling */
+.list-group-item {
+    border-left: 4px solid #28a745;
+    font-weight: bold;
+    background: #ffffff;
+}
+
+/* Key Features */
+.about-features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-features ul li {
+    background: #e9f5e9;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-features ul li:hover {
+    transform: translateX(5px);
+    background: #d4edda;
+}
+
+/* FAQ Accordion */
+.accordion-button {
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.accordion-button:hover {
+    background: #e9f5e9;
+}
+
+/* Call to Action */
+.about-cta {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.about-cta .btn-success {
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.about-cta .btn-success:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 12px rgba(40, 167, 69, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-intro {
+        padding: 25px;
+    }
+
+    .about-section {
+        padding: 20px;
+    }
+
+    .about-features ul li {
+        padding: 8px;
+    }
+
+    .about-cta .btn-success {
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+}
