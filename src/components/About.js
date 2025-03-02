@@ -105,7 +105,7 @@ const About = () => {
             <section className="about-cta">
                 <h2>🚀 Join Agri-Connect Today!</h2>
                 <p>Be part of a <strong>transparent, efficient, and fair</strong> agricultural marketplace.</p>
-                <a href="/register" className="btn btn-success btn-lg">Register Now</a>
+               <Link to="/register" className="btn btn-success btn-lg mt-3 fw-bold hover-glow">Register Now</Link>
             </section>
         </div>
     );
